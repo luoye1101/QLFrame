@@ -135,13 +135,7 @@ class QLBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupUI()
-    }
-
-    func setupUI() {
-        print("\(self))")
         self.view.backgroundColor = RGB(r: 239, g: 239, b: 244)
-        
         // 导航栏左侧按钮
         let backImage = UIImage(named: "All_back_button")
         let backView = UIView(frame: CGRect(x: 0, y: 0, width: 75, height: 44))
